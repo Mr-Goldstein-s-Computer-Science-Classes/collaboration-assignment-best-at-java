@@ -9,7 +9,7 @@ public class Student {
 
     public void addAssignment(String assignName)
     {
-        assignName = "Ungraded";
+
     }
 
     public void gradeAssignment(String assignment, double grade)
