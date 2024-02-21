@@ -19,7 +19,17 @@ public class Student {
 
     public double getAssignmentGrade(String assignment)
     {
-        return
+
+    }
+
+    public double getOverallGrade()
+    {
+
+    }
+
+    public String toString()
+    {
+
     }
 
 }
