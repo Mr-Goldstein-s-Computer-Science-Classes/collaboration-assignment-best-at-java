@@ -12,4 +12,14 @@ public class Student {
         assignName = "Ungraded";
     }
 
+    public void gradeAssignment(String assignment, double grade)
+    {
+
+    }
+
+    public double getAssignmentGrade(String assignment)
+    {
+        return
+    }
+
 }
