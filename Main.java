@@ -58,14 +58,9 @@ public class Main {
         System.out.println(grades.getAverageGrade("Stacks and queues quiz"));
         System.out.println(grades.getAverageGrade("Github Exploration"));
 
-
-
-
-
-
-
-
-
+        System.out.println(grades.getMaxOverall());
+        System.out.println(grades.getMinOverall());
+        System.out.println(grades.getAverageOverall());
 
         System.out.println(grades.toString());
 
