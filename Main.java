@@ -64,6 +64,12 @@ public class Main {
 
         System.out.println(grades.toString());
 
+        System.out.println(grades.getStudent("Tyler"));
+        System.out.println(grades.getStudent("James"));
+        System.out.println(grades.getStudent("Ethan"));
+        System.out.println(grades.getStudent("Scotty"));
+        System.out.println(grades.getStudent("David"));
+        System.out.println(grades.getStudent("Patrick"));
 
     }
 }
