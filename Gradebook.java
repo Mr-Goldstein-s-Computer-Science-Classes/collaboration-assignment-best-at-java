@@ -1,26 +1,24 @@
 import java.util.ArrayList;
 import java.util.List;
 public class Gradebook {
-    private ArrayList<String> gradeBook;
-    private Student student;
-    private String assignment;
-    private double averageGrade;
-    private double maximumGrade;
-    private double minimumGrade;
-    private double averageOverall;
-    private double maxOverall;
-    private double minOverall;
-    private double studentGrade;
     private ArrayList<Student> students = new ArrayList<>();
+    private ArrayList<String> assignments = new ArrayList<>();
+
 
     public Gradebook()
     {
-        ArrayList<String> assignments = new ArrayList();
+        ArrayList<String> assignment = new ArrayList<>();
+        this.assignments = assignment;
     }
-    private ArrayList<String> getGradeBook()
+    private ArrayList<Student> getStudents()
     {
-        return gradeBook;
+        return students;
     }
+    private ArrayList<String> getAssignments()
+    {
+        return assignments;
+    }
+
     public void createStudent(String name)
     {
         Student x = new Student(name);
@@ -28,7 +26,7 @@ public class Gradebook {
     }
     public void addAssignment(String assignment)
     {
-        .add(assignment);
+        getAssignments().add(assignment);
     }
     public Student getStudent(String studentName)
     {
@@ -38,31 +36,31 @@ public class Gradebook {
     {
 
     }
-    public double getAverageGrade()
+    public double getAverageGrade(String assignment)
     {
-        return averageGrade;
+        for(doubl)
     }
-    public double getMinimumGrade()
+    public double getMinimumGrade(String assignment)
     {
         return minimumGrade;
     }
-    private double getMaximumGrade()
+    public double getMaximumGrade(String assignment)
     {
         return maximumGrade;
     }
-    private double getAverageOverall()
+    public double getAverageOverall()
     {
         return averageOverall;
     }
-    private double getMaxOverall()
+    public double getMaxOverall()
     {
         return maxOverall;
     }
-    private double getMinOverall()
+    public double getMinOverall()
     {
         return minOverall;
     }
-    private double getStudentGrade(String p)
+    public double getStudentGrade(String p)
     {
         return
     }
