@@ -1,59 +1,82 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 public class Gradebook {
-    private Student student;
-    private String assignment;
-    private double averageGrade;
-    private double maximumGrade;
-    private double minimumGrade;
-    private double averageOverall;
-    private double maxOverall;
-    private double minOverall;
-    private double studentGrade;
+    private ArrayList<Student> students = new ArrayList<>();
+    private ArrayList<String> assignments = new ArrayList<>();
+
 
     public Gradebook()
     {
-        ArrayList<String> gradeBook = new ArrayList();
+        ArrayList<String> assignment = new ArrayList<>();
+        this.assignments = assignment;
     }
+    private ArrayList<Student> getStudents()
+    {
+        return students;
+    }
+    private ArrayList<String> getAssignments()
+    {
+        return assignments;
+    }
+
     public void createStudent(String name)
     {
         Student x = new Student(name);
+        students.add(x);
     }
     public void addAssignment(String assignment)
     {
-        .add(assignment);
+        getAssignments().add(assignment);
+    }
+    public Student getStudent(String studentName)
+    {
+
     }
     public void gradeAssignment(String assignment, String studentName, double grade)
     {
-        
+
     }
-    public double getAverageGrade()
+    public double getAverageGrade(String assignment)
     {
-        return averageGrade;
+        for(doubl)
     }
-    public double getMinimumGrade()
+    public double getMinimumGrade(String assignment)
     {
         return minimumGrade;
     }
-    private double getMaximumGrade()
+    public double getMaximumGrade(String assignment)
     {
         return maximumGrade;
     }
-    private double getAverageOverall()
+    public double getAverageOverall()
     {
         return averageOverall;
     }
-    private double getMaxOverall()
+    public double getMaxOverall()
     {
         return maxOverall;
     }
-    private double getMinOverall()
+    public double getMinOverall()
     {
         return minOverall;
     }
-    private double getStudentGrade()
+    public double getStudentGrade(String p)
     {
-        return studentGrade;
+        return
+    }
+    private ArrayList<Student> getListStudents()
+    {
+        ArrayList<Student> list = new ArrayList<Student>();
+        for(Student y: list)
+
+    }
+    public String toString()
+    {
+        for(String x: getGradeBook())
+        {
+            System.out.println(x + ": ");
+            x.get
+
+        }
     }
 }
