@@ -28,9 +28,16 @@ public class Gradebook {
     {
         getAssignments().add(assignment);
     }
-    public Student getStudent(String studentName)
+    private String getStudentName
     {
 
+    }
+    public Student getStudent(String studentName)
+    {
+        for(Student x: students)
+        {
+            if(studentName.equals(x.))
+        }
     }
     public void gradeAssignment(String assignment, String studentName, double grade)
     {
