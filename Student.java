@@ -34,10 +34,12 @@ public class Student {
 
     public double getOverallGrade()
     {
-        int index =
-        for(int i = 0; i < assignments.size(); i++)
+        if(assignmentGrades != null)
         {
-
+            for(int i = 0; i < assignments.size(); i++)
+            {
+                
+            }
         }
     }
 
