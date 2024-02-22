@@ -43,8 +43,27 @@ public class Main {
         grades.gradeAssignment("Github Exploration", "David", 28);
         grades.gradeAssignment("Github Exploration", "Patrick", 100);
 
+        System.out.println(grades.getMaximumGrade("Stacks And Queues Station Activity"));
+        System.out.println(grades.getMaximumGrade("Stacks and queues programs"));
+        System.out.println(grades.getMaximumGrade("Stacks and queues quiz"));
+        System.out.println(grades.getMaximumGrade("Github Exploration"));
+
+        System.out.println(grades.getMinimumGrade("Stacks And Queues Station Activity"));
+        System.out.println(grades.getMinimumGrade("Stacks and queues programs"));
+        System.out.println(grades.getMinimumGrade("Stacks and queues quiz"));
+        System.out.println(grades.getMinimumGrade("Github Exploration"));
+
+        System.out.println(grades.getAverageGrade("Stacks And Queues Station Activity"));
+        System.out.println(grades.getAverageGrade("Stacks and queues programs"));
+        System.out.println(grades.getAverageGrade("Stacks and queues quiz"));
+        System.out.println(grades.getAverageGrade("Github Exploration"));
+
+        System.out.println(grades.getMaxOverall());
+        System.out.println(grades.getMinOverall());
+        System.out.println(grades.getAverageOverall());
 
         System.out.println(grades.toString());
-        System.out.println(grades
+
+
     }
 }
