@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 public class Gradebook {
@@ -13,7 +14,7 @@ public class Gradebook {
 
     public Gradebook()
     {
-        ArrayList gradeBrook = new ArrayList();
+        ArrayList<String> gradeBook = new ArrayList();
     }
     public void createStudent(String name)
     {
@@ -21,7 +22,11 @@ public class Gradebook {
     }
     public void addAssignment(String assignment)
     {
-
+        .add(assignment);
+    }
+    public void gradeAssignment(String assignment, String studentName, double grade)
+    {
+        
     }
     public double getAverageGrade()
     {
