@@ -1,7 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 public class Gradebook {
+    private ArrayList<String> gradeBook;
     private Student student;
     private String assignment;
     private double averageGrade;
@@ -11,22 +11,32 @@ public class Gradebook {
     private double maxOverall;
     private double minOverall;
     private double studentGrade;
+    private ArrayList<Student> students = new ArrayList<>();
 
     public Gradebook()
     {
-        ArrayList<String> gradeBook = new ArrayList();
+        ArrayList<String> assignments = new ArrayList();
+    }
+    private ArrayList<String> getGradeBook()
+    {
+        return gradeBook;
     }
     public void createStudent(String name)
     {
         Student x = new Student(name);
+        students.add(x);
     }
     public void addAssignment(String assignment)
     {
         .add(assignment);
     }
+    public Student getStudent(String studentName)
+    {
+
+    }
     public void gradeAssignment(String assignment, String studentName, double grade)
     {
-        
+
     }
     public double getAverageGrade()
     {
@@ -52,8 +62,23 @@ public class Gradebook {
     {
         return minOverall;
     }
-    private double getStudentGrade()
+    private double getStudentGrade(String p)
     {
-        return studentGrade;
+        return
+    }
+    private ArrayList<Student> getListStudents()
+    {
+        ArrayList<Student> list = new ArrayList<Student>();
+        for(Student y: list)
+
+    }
+    public String toString()
+    {
+        for(String x: getGradeBook())
+        {
+            System.out.println(x + ": ");
+            x.get
+
+        }
     }
 }
