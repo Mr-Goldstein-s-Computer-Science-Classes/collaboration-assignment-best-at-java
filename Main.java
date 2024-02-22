@@ -24,11 +24,14 @@ public class Main {
         grades.gradeAssignment("Stacks and queues programs", "David", 26);
         grades.gradeAssignment("Stacks and queues programs", "Patrick", 99);
 
-        grades.gradeAssignment("", "Tyler", 100);
+        grades.gradeAssignment("Stacks and queues quiz", "Tyler", 100);
+        grades.gradeAssignment("Stacks and queues quiz", "James", 100);
+        grades.gradeAssignment("Stacks and queues quiz", "Ethan", 100);
+        grades.gradeAssignment("Stacks and queues quiz", "Scotty", 87);
+        grades.gradeAssignment("Stacks and queues quiz", "David", 92);
+        grades.gradeAssignment("Stacks and queues quiz", "Patrick", 83);
 
-
-
-
+        grades.gradeAssignment("Stacks and queues quiz", "Patrick", 83);
 
 
     }
