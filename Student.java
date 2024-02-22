@@ -29,7 +29,7 @@ public class Student {
     public double getAssignmentGrade(String assignment)
     {
         int index = assignments.indexOf(assignment);
-
+        return assignmentGrades.get(index);
     }
 
     public double getOverallGrade()
