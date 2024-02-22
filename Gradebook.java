@@ -6,7 +6,7 @@ public class Gradebook {
     private double averageGrade;
     private double maximumGrade;
     private double minimumGrade;
-    private double overall;
+    private double averageOverall;
     private double maxOverall;
     private double minOverall;
     private double studentGrade;
@@ -31,5 +31,24 @@ public class Gradebook {
     {
         return minimumGrade;
     }
-    private 
+    private double getMaximumGrade()
+    {
+        return maximumGrade;
+    }
+    private double getAverageOverall()
+    {
+        return averageOverall;
+    }
+    private double getMaxOverall()
+    {
+        return maxOverall;
+    }
+    private double getMinOverall()
+    {
+        return minOverall;
+    }
+    private double getStudentGrade()
+    {
+        return studentGrade;
+    }
 }
