@@ -16,21 +16,29 @@ public class Student {
     public void addAssignment(String assignName)
     {
         assignments.add(assignName);
+        assignmentGrades.add(null);
     }
 
     public void gradeAssignment(String assignment, double grade)
     {
+        int index = assignments.indexOf(assignment);
+        assignmentGrades.set(index, grade);
 
     }
 
     public double getAssignmentGrade(String assignment)
     {
+        int index = assignments.indexOf(assignment);
 
     }
 
     public double getOverallGrade()
     {
+        int index =
+        for(int i = 0; i < assignments.size(); i++)
+        {
 
+        }
     }
 
     public String toString()
