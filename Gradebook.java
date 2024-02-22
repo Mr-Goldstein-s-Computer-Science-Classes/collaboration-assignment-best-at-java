@@ -36,47 +36,39 @@ public class Gradebook {
     {
 
     }
-    public double getAverageGrade(String assignment)
-    {
-        for(doubl)
+    public double getAverageGrade(String assignment) {
+        for (String x : assignments)
+        {
+
+        }
     }
     public double getMinimumGrade(String assignment)
     {
-        return minimumGrade;
     }
     public double getMaximumGrade(String assignment)
     {
-        return maximumGrade;
     }
     public double getAverageOverall()
     {
-        return averageOverall;
     }
     public double getMaxOverall()
     {
-        return maxOverall;
     }
     public double getMinOverall()
     {
-        return minOverall;
     }
     public double getStudentGrade(String p)
     {
-        return
+
     }
     private ArrayList<Student> getListStudents()
     {
         ArrayList<Student> list = new ArrayList<Student>();
-        for(Student y: list)
+
 
     }
     public String toString()
     {
-        for(String x: getGradeBook())
-        {
-            System.out.println(x + ": ");
-            x.get
 
-        }
     }
 }
