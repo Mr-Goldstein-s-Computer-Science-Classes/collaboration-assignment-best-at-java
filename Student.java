@@ -34,13 +34,17 @@ public class Student {
 
     public double getOverallGrade()
     {
+        int totalPoints = 0;
+
         if(assignmentGrades != null)
         {
+
             for(int i = 0; i < assignments.size(); i++)
             {
-                
+                totalPoints += assignmentGrades.get(i);
             }
         }
+        return totalPoints/assignmentGrades.size();
     }
 
     public String toString()
