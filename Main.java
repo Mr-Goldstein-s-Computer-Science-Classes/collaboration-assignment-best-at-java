@@ -31,7 +31,12 @@ public class Main {
         grades.gradeAssignment("Stacks and queues quiz", "David", 92);
         grades.gradeAssignment("Stacks and queues quiz", "Patrick", 83);
 
-        grades.gradeAssignment("Stacks and queues quiz", "Patrick", 83);
+        grades.gradeAssignment("Github Exploration", "Tyler", 96);
+        grades.gradeAssignment("Github Exploration", "James", 43);
+        grades.gradeAssignment("Github Exploration", "Ethan", 100);
+        grades.gradeAssignment("Github Exploration", "Scotty", 97);
+        grades.gradeAssignment("Github Exploration", "David", 28);
+        grades.gradeAssignment("Github Exploration", "Patrick", 100);
 
 
     }
