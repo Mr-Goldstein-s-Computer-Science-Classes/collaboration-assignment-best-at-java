@@ -3,7 +3,12 @@ public class Main {
 
         Gradebook grades = new Gradebook();
 
-        //Create Students
+        grades.createStudent("Tyler");
+        grades.createStudent("James");
+        grades.createStudent("Ethan");
+        grades.createStudent("Scotty");
+        grades.createStudent("David");
+        grades.createStudent("Patrick");
 
         grades.addAssignment("Stacks And Queues Station Activity");
         grades.addAssignment("Stacks and queues programs");
@@ -39,5 +44,7 @@ public class Main {
         grades.gradeAssignment("Github Exploration", "Patrick", 100);
 
 
+        System.out.println(grades.toString());
+        System.out.println(grades
     }
 }
